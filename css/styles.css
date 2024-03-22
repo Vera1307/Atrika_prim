@@ -1,0 +1,169 @@
+/* 
+.myBtn{
+    outline: 1px solid rgb(124, 104, 238);
+    color: rgb(34, 34, 34);
+    transition: all 1s;
+}
+
+.myBtn:hover{
+    outline: 1px solid mediumslateblue;
+    background-color: mediumslateblue;
+    transition: all 1s;
+    color: white;
+}
+ */
+
+ 
+.myNav{
+    margin-top: 70px;
+}
+.sectionContact{
+    padding: 25px 35px;
+}
+.myMap iframe{
+    width: 100%;
+    height: 200px;
+}
+.myLogo{
+    filter:drop-shadow(3px 5px 3px white);
+}
+
+/* class HEADER */
+.navbar-brand {
+    font-weight: bold;
+    line-height: 100%;
+}
+
+.img-carousel {
+    height: 90vh;
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.m-top-75 {
+    margin-top: 68px;
+}
+
+/* strelki */
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: rgb(251, 70, 10);
+    padding: 5px;
+    border-radius: 50%;
+}
+
+
+.producti h5 {
+    font-size: 18px;
+}
+
+.title-big {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.centered {
+    text-align: center;
+}
+.img-center{
+    margin: 10px auto;
+    width: 100%;
+}
+
+.card:hover {
+    box-shadow: 0 0.5rem 0.5rem rgba(47,179,128,0.7);
+    transform: scale(1.01, 1.01);
+    transition: all 0.5s;
+}
+
+p { text-indent: 25px; }
+
+.main{
+    text-align: justify;
+}
+
+
+footer {
+    color: white;
+}
+
+.zakaz {
+    margin-top: 100px;
+    min-height: 95vh;
+    width: 70%;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+.zakaz-text {
+    margin-top: 30px;
+    line-height: 180%;
+}
+
+.row-review {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.reviews {
+    position: relative;
+}
+
+.reviews .card-body {
+    min-height: 260px;
+}
+
+.reviews .card-img-top {
+    height: 210px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.reviews-desktop {
+    padding: 5px 100px;
+}
+
+.reviews-mobile {
+    display: none;
+}
+
+.reviews-mobile .card {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80% !important;
+}
+
+.reviews-mobile .carousel-control-prev {
+    left: -12px;
+}
+
+.reviews-mobile .carousel-control-next {
+    right: -12px;
+}
+
+
+@media (max-width:1160px) {
+    .img-carousel {
+        height: 60vh;
+    }
+
+    .reviews-desktop {
+        display: none;
+    }
+
+    .reviews-mobile {
+        display: block;
+    }
+}
+
+
+/*telefon*/
+@media (max-width:768px) {
+    .img-carousel {
+        height: 60vh;
+    }
+}
